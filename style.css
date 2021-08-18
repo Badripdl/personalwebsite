@@ -10,12 +10,14 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(20, 26, 43, 0.938);
+    overflow-x: hidden;
 }
 
 nav{
     background: rgba(36, 52, 83, 0.795);
     height: 80px;
     width: 100%;    
+   
 }
 
 img.logo{
@@ -124,20 +126,8 @@ h1{
     color: floralwhite;
 }
 
-#content{
+#content {
     margin: 20px;
-
-}
-
-
-#content {
-    width: 100%;
-    border-spacing: 20px;
-    
-    
-}
-
-#content {
     background-color: rgba(22, 27, 44, 0.651);
     color: lavender;
     border-radius: 20px;
@@ -154,8 +144,8 @@ span{
     border-radius: 20px;
 }
 #content  .title{
-    margin:20;
-    margin-left: 40%;
+    font-weight: bold;
+    text-align: center;
     font-size: 30px;
 }
 #content video{
@@ -169,6 +159,8 @@ span{
 
 footer{
     background-color: rgb(29, 28, 28);
+    border-radius: 5px;
+    
 }
 footer .social{
     width: 100%;
